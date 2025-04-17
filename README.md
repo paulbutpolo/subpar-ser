@@ -50,7 +50,7 @@ https://zenodo.org/records/1188976/files/Audio_Song_Actors_01-24.zip?download=1
 ```
 The result was phenomenal, I won't pretend that I know jackshit about AI and how to train them but I will link the repository I used to train them here:
 ```
-// Insert link
+https://github.com/paulbutpolo/python-fine-tuner
 ```
 
 - Right now, this current Iteration of this program has the accuracy of 75% for most of emotions but you will mostly get 100% accuracy for Angry and Suprised due to how the 24 Voice actors delivered all their quotes (Yes I listened to all of them manually, all 192 Audio clips)
