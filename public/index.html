@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech Emotion Recognition</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0/dist/tf.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+  <h1>Speech Emotion Recognition Demo</h1>
+  
+  <div id="controls">
+    <button id="recordButton">Start Recording</button>
+    <button id="stopButton" disabled>Stop Recording</button>
+    <div id="recordingStatus">Not recording</div>
+  </div>
+  
+  <div id="results" style="display: none;">
+    <h2>Emotion Analysis Results</h2>
+    <p>Predicted emotion: <span id="predictedEmotion">-</span></p>
+    <h3>Probabilities:</h3>
+    <div id="emotionProbabilities"></div>
+  </div>
+  
+  <script src="recorder.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
